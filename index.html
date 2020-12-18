@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi steps forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main_div">
+        <div class="container">
+            <div class="progress_bar">
+                <ul>
+                    <li>
+                        <p class="activate">1</p>
+                        <small>Account Setup</small>
+                    </li>
+                    <li>
+                        <p class="slider2">2</p>
+                        <small>social profiles</small>
+                    </li>
+                    <li>
+                        <p class="slider3">3</p>
+                        <small>persoanl details</small>
+                    </li>
+                </ul>
+            </div>
+            <form action="" id="form1" onsubmit="return false">
+                <h3>account setup</h3>
+                <input type="text" placeholder="enter your user name">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="confirm password">
+                <div class="btn_mode">
+                    <button id="next1">next</button>
+                </div>
+            </form>
+
+            <form action="" id="form2" onsubmit="return false">
+                <h3>social profile</h3>
+                <input type="text" placeholder="enter your user name">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="confirm password">
+                <div class="btn_mode">
+                    <button id="back1">back</button>
+                    <button id="next2">next</button>
+                </div>
+            </form>
+
+            <form action="" id="form3" onsubmit="return false">
+                <h3>personal details</h3>
+                <input type="text" placeholder="enter your user name">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="confirm password">
+                <div class="btn_mode">
+                    <button id="back2">back</button>
+                    <button>submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
